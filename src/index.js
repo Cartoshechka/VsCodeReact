@@ -5,11 +5,16 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Listy from './Listy';
 import Zdarzenia from './Zdarzenia';
+import Task1 from './Task1'
+import Task2 from './Task2'
+import Task3 from './Task3'
+import Task1Tech from './Task1Tech'
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Zdarzenia />
+    <Task1Tech />
   </React.StrictMode>
 );
 
